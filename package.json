@@ -1,7 +1,7 @@
 {
-    "name": "yarnspike",
+    "name": "jsdeptest",
     "version": "1.0.0",
-    "description": "yarn spike for dep managment",
+    "description": "Js dep test for dep managment",
     "main": "index.js",
     "author": "anand",
     "license": "MIT",
