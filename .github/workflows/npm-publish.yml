@@ -3,7 +3,7 @@
 
 name: test node
 
-on:[push,pull_request]
+on: [push,pull_request]
 
 jobs:
   build:
@@ -15,8 +15,8 @@ jobs:
           node-version: 16
       
       - name: check npm
-       run: |
-        echo $(npm --version)
+        run: |
+         echo $(npm --version)
         
       - name: install yarn
         run: |
